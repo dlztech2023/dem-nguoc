@@ -1,27 +1,3 @@
-<style>
-#downloadButton {
-  border: 2px solid #000;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 1s, border-color 1s;
-  box-sizing: border-box;
-  width: 160px;
-}
-
-#downloadButton.active {
-  background-color: #5ee05e;
-  border-color: #0000ff;
-}
-
-#timer {
-  transition: background-color 1s;
-}
-
-#timer.active {
-  background-color: #5ee05e;
-}
-</style>
-
 <script>
 var isCounting = false;
 
